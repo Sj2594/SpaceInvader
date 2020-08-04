@@ -54,7 +54,7 @@ def blast(x,y):
 #Game loop
 while running:
     #RGB
-    screen.fill((0,0,0))
+    screen.fill((1,0,0))
     #Background image
     screen.blit(background,(0,0))
     for event in pygame.event.get():
